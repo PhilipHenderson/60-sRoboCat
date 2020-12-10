@@ -6,8 +6,10 @@ public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public int dashDistance;
+    
     public Rigidbody2D rigidBody;
     public Camera camera;
+    
     Vector2 movement;
     Vector2 mousePos;
     Vector2 lookDir;
@@ -23,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
-        mousePos = GetComponent<Camera>().ScreenToWorldPoint(Input.mousePosition);
+        mousePos = camera.ScreenToWorldPoint(Input.mousePosition);
 
         if (Input.GetButtonDown("Jump"))
         {

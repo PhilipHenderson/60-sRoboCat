@@ -97,7 +97,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ff2a73a548677342be22a8de98062f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifeSpan: 3
 --- !u!70 &2901117379926382568
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -111,8 +110,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1.2864082, y: -0.58266735}
-  m_Size: {x: 4.417587, y: 9.820504}
+  m_Offset: {x: -1.3877937, y: -0.07578475}
+  m_Size: {x: 5.8368545, y: 10.834268}
   m_Direction: 0
 --- !u!50 &2901117379926382583
 Rigidbody2D:
@@ -126,7 +125,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.5
   m_LinearDrag: 3.84
   m_AngularDrag: 0.05
   m_GravityScale: 0
